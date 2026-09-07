@@ -1,5 +1,5 @@
 const DATA={
- alphabet:{name:"Alphabet",icon:"🔤",items:"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(x=>({label:x,speak:x,image:`images/alphabet/${x.toLowerCase()}.jpg`}))},
+ alphabet:{name:"Alphabet",icon:"🔤",items:"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(x=>({label:x,speak:x,image:`images/alphabet/${x.toLowerCase()}.png`}))},
  numbers:{name:"Numbers",icon:"🔢",items:Array.from({length:101},(_,i)=>({label:String(i),speak:numberWord(i),hi:numberHindi(i),image:`images/numbers/${i}.png`}))},
  animals:{name:"Animals",icon:"🐾",items:[
  ["Lion","शेर"],["Tiger","बाघ"],["Elephant","हाथी"],["Giraffe","जिराफ़"],["Zebra","ज़ेब्रा"],["Monkey","बंदर"],["Dog","कुत्ता"],["Cat","बिल्ली"],["Cow","गाय"],["Horse","घोड़ा"],["Goat","बकरी"],["Sheep","भेड़"],["Rabbit","खरगोश"],["Deer","हिरण"],["Bear","भालू"],["Fox","लोमड़ी"],["Wolf","भेड़िया"],["Camel","ऊंट"],["Rhinoceros","गैंडा"],["Hippopotamus","दरियाई घोड़ा"],["Crocodile","मगरमच्छ"],["Panda","पांडा"],["Kangaroo","कंगारू"],["Monkey","बंदर"]
