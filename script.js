@@ -1500,7 +1500,105 @@ function injectGameStyles(){
   }
 
  }
+/* ===== DARK GAME READABILITY FIX ===== */
 
+.universal-game-overlay{
+  background:rgba(0,0,0,.72) !important;
+  backdrop-filter:blur(7px);
+  -webkit-backdrop-filter:blur(7px);
+}
+
+.universal-game-panel{
+  background:#171923 !important;
+  color:#fff !important;
+  border:1px solid rgba(255,255,255,.10) !important;
+  box-shadow:0 20px 60px rgba(0,0,0,.55) !important;
+}
+
+.universal-game-head h2{
+  color:#fff !important;
+  text-shadow:none !important;
+}
+
+.universal-game-head p{
+  color:#bfc3d1 !important;
+}
+
+.universal-game-close{
+  background:#272a36 !important;
+  color:#fff !important;
+  border:1px solid rgba(255,255,255,.12) !important;
+}
+
+.universal-game-area{
+  background:#0f1119 !important;
+  color:#fff !important;
+  border-color:rgba(255,255,255,.08) !important;
+}
+
+.universal-game-score{
+  background:#20232f !important;
+  color:#fff !important;
+  border:1px solid rgba(255,255,255,.10) !important;
+}
+
+.universal-game-target{
+  background:#20232f !important;
+  color:#fff !important;
+  border:1px solid rgba(255,255,255,.14) !important;
+  box-shadow:0 8px 25px rgba(0,0,0,.35) !important;
+}
+
+.universal-game-target *{
+  color:#fff !important;
+  text-shadow:none !important;
+}
+
+.game-option{
+  background:#1c1f2a !important;
+  color:#fff !important;
+  border:1px solid rgba(255,255,255,.12) !important;
+  box-shadow:0 8px 20px rgba(0,0,0,.28) !important;
+}
+
+.game-option .game-option-text{
+  color:#fff !important;
+  text-shadow:none !important;
+}
+
+.game-option-fallback{
+  background:#272a36 !important;
+  color:#fff !important;
+}
+
+.game-message-card{
+  background:#20232f !important;
+  color:#fff !important;
+  border:1px solid rgba(255,255,255,.12) !important;
+  box-shadow:0 15px 40px rgba(0,0,0,.45) !important;
+}
+
+.game-message-card strong{
+  color:#fff !important;
+}
+
+.game-message-card span{
+  color:#c7cad5 !important;
+}
+
+.universal-game-controls{
+  background:#171923 !important;
+}
+
+.universal-game-control{
+  background:#292c38 !important;
+  color:#fff !important;
+}
+
+.universal-game-control.main{
+  background:#fff !important;
+  color:#17131d !important;
+}
  `;
 
  document.head.appendChild(style);
