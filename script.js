@@ -24,15 +24,29 @@ const DATA={
   name:"Animals",
   icon:"🐾",
   items:[
-   ["Lion","शेर"],["Tiger","बाघ"],["Elephant","हाथी"],
-   ["Giraffe","जिराफ़"],["Zebra","ज़ेब्रा"],["Monkey","बंदर"],
-   ["Dog","कुत्ता"],["Cat","बिल्ली"],["Cow","गाय"],
-   ["Horse","घोड़ा"],["Goat","बकरी"],["Sheep","भेड़"],
-   ["Rabbit","खरगोश"],["Deer","हिरण"],["Bear","भालू"],
-   ["Fox","लोमड़ी"],["Wolf","भेड़िया"],["Camel","ऊंट"],
-   ["Rhinoceros","गैंडा"],["Hippopotamus","दरियाई घोड़ा"],
-   ["Crocodile","मगरमच्छ"],["Panda","पांडा"],["Kangaroo","कंगारू"],
-   ["Monkey","बंदर"]
+   ["Lion","शेर"],
+   ["Tiger","बाघ"],
+   ["Elephant","हाथी"],
+   ["Giraffe","जिराफ़"],
+   ["Zebra","ज़ेब्रा"],
+   ["Monkey","बंदर"],
+   ["Dog","कुत्ता"],
+   ["Cat","बिल्ली"],
+   ["Cow","गाय"],
+   ["Horse","घोड़ा"],
+   ["Goat","बकरी"],
+   ["Sheep","भेड़"],
+   ["Rabbit","खरगोश"],
+   ["Deer","हिरण"],
+   ["Bear","भालू"],
+   ["Fox","लोमड़ी"],
+   ["Wolf","भेड़िया"],
+   ["Camel","ऊंट"],
+   ["Rhinoceros","गैंडा"],
+   ["Hippopotamus","दरियाई घोड़ा"],
+   ["Crocodile","मगरमच्छ"],
+   ["Panda","पांडा"],
+   ["Kangaroo","कंगारू"]
   ].map(([label,hi])=>({
    label,
    hi,
@@ -45,13 +59,27 @@ const DATA={
   name:"Birds",
   icon:"🐦",
   items:[
-   ["Peacock","मोर"],["Parrot","तोता"],["Sparrow","गौरैया"],
-   ["Crow","कौआ"],["Pigeon","कबूतर"],["Eagle","गरुड़"],
-   ["Owl","उल्लू"],["Swan","हंस"],["Duck","बत्तख"],
-   ["Hen","मुर्गी"],["Rooster","मुर्गा"],["Kingfisher","रामचिरैया"],
-   ["Woodpecker","कठफोड़वा"],["Cuckoo","कोयल"],["Flamingo","राजहंस"],
-   ["Partridge","तीतर"],["Myna","मैना"],["Heron","बगुला"],
-   ["Vulture","गिद्ध"],["Crane","सारस"],["Bulbul","बुलबुल"],
+   ["Peacock","मोर"],
+   ["Parrot","तोता"],
+   ["Sparrow","गौरैया"],
+   ["Crow","कौआ"],
+   ["Pigeon","कबूतर"],
+   ["Eagle","गरुड़"],
+   ["Owl","उल्लू"],
+   ["Swan","हंस"],
+   ["Duck","बत्तख"],
+   ["Hen","मुर्गी"],
+   ["Rooster","मुर्गा"],
+   ["Kingfisher","रामचिरैया"],
+   ["Woodpecker","कठफोड़वा"],
+   ["Cuckoo","कोयल"],
+   ["Flamingo","राजहंस"],
+   ["Partridge","तीतर"],
+   ["Myna","मैना"],
+   ["Heron","बगुला"],
+   ["Vulture","गिद्ध"],
+   ["Crane","सारस"],
+   ["Bulbul","बुलबुल"],
    ["Koel","कोयल"]
   ].map(([label,hi])=>({
    label,
@@ -65,14 +93,28 @@ const DATA={
   name:"Fruits",
   icon:"🍎",
   items:[
-   ["Apple","सेब"],["Banana","केला"],["Mango","आम"],
-   ["Orange","संतरा"],["Grapes","अंगूर"],["Pomegranate","अनार"],
-   ["Guava","अमरूद"],["Papaya","पपीता"],["Watermelon","तरबूज"],
-   ["Muskmelon","खरबूजा"],["Pineapple","अनानास"],["Coconut","नारियल"],
-   ["Papaya","पपीता"],["Litchi","लीची"],["Jackfruit","कटहल"],
-   ["Custard Apple","सीताफल"],["Pear","नाशपाती"],
-   ["Strawberry","स्ट्रॉबेरी"],["Lemon","नींबू"],["Kiwi","कीवी"],
-   ["Peach","आड़ू"],["Plum","आलूबुखारा"],["Chikoo","चीकू"]
+   ["Apple","सेब"],
+   ["Banana","केला"],
+   ["Mango","आम"],
+   ["Orange","संतरा"],
+   ["Grapes","अंगूर"],
+   ["Pomegranate","अनार"],
+   ["Guava","अमरूद"],
+   ["Papaya","पपीता"],
+   ["Watermelon","तरबूज"],
+   ["Muskmelon","खरबूजा"],
+   ["Pineapple","अनानास"],
+   ["Coconut","नारियल"],
+   ["Litchi","लीची"],
+   ["Jackfruit","कटहल"],
+   ["Custard Apple","सीताफल"],
+   ["Pear","नाशपाती"],
+   ["Strawberry","स्ट्रॉबेरी"],
+   ["Lemon","नींबू"],
+   ["Kiwi","कीवी"],
+   ["Peach","आड़ू"],
+   ["Plum","आलूबुखारा"],
+   ["Chikoo","चीकू"]
   ].map(([label,hi])=>({
    label,
    hi,
@@ -85,14 +127,28 @@ const DATA={
   name:"Vegetables",
   icon:"🥕",
   items:[
-   ["Potato","आलू"],["Tomato","टमाटर"],["Onion","प्याज़"],
-   ["Carrot","गाजर"],["Cabbage","पत्तागोभी"],["Cauliflower","फूलगोभी"],
-   ["Spinach","पालक"],["Brinjal","बैंगन"],["Okra","भिंडी"],
-   ["Peas","मटर"],["Pumpkin","कद्दू"],["Bottle Gourd","लौकी"],
-   ["Bitter Gourd","करेला"],["Cucumber","खीरा"],
-   ["Capsicum","शिमला मिर्च"],["Radish","मूली"],["Beetroot","चुकंदर"],
-   ["Corn","मक्का"],["Garlic","लहसुन"],["Ginger","अदरक"],
-   ["Green Beans","हरी फली"],["Drumstick","सहजन"]
+   ["Potato","आलू"],
+   ["Tomato","टमाटर"],
+   ["Onion","प्याज़"],
+   ["Carrot","गाजर"],
+   ["Cabbage","पत्तागोभी"],
+   ["Cauliflower","फूलगोभी"],
+   ["Spinach","पालक"],
+   ["Brinjal","बैंगन"],
+   ["Okra","भिंडी"],
+   ["Peas","मटर"],
+   ["Pumpkin","कद्दू"],
+   ["Bottle Gourd","लौकी"],
+   ["Bitter Gourd","करेला"],
+   ["Cucumber","खीरा"],
+   ["Capsicum","शिमला मिर्च"],
+   ["Radish","मूली"],
+   ["Beetroot","चुकंदर"],
+   ["Corn","मक्का"],
+   ["Garlic","लहसुन"],
+   ["Ginger","अदरक"],
+   ["Green Beans","हरी फली"],
+   ["Drumstick","सहजन"]
   ].map(([label,hi])=>({
    label,
    hi,
@@ -105,10 +161,18 @@ const DATA={
   name:"Colors",
   icon:"🎨",
   items:[
-   ["Red","लाल"],["Blue","नीला"],["Green","हरा"],
-   ["Yellow","पीला"],["Orange","नारंगी"],["Purple","बैंगनी"],
-   ["Pink","गुलाबी"],["Brown","भूरा"],["Black","काला"],
-   ["White","सफेद"],["Grey","स्लेटी"],["Gold","सुनहरा"],
+   ["Red","लाल"],
+   ["Blue","नीला"],
+   ["Green","हरा"],
+   ["Yellow","पीला"],
+   ["Orange","नारंगी"],
+   ["Purple","बैंगनी"],
+   ["Pink","गुलाबी"],
+   ["Brown","भूरा"],
+   ["Black","काला"],
+   ["White","सफेद"],
+   ["Grey","स्लेटी"],
+   ["Gold","सुनहरा"],
    ["Silver","चांदी"]
   ].map(([label,hi])=>({
    label,
@@ -122,9 +186,15 @@ const DATA={
   name:"Shapes",
   icon:"🔷",
   items:[
-   ["Circle","वृत्त"],["Square","वर्ग"],["Triangle","त्रिभुज"],
-   ["Rectangle","आयत"],["Oval","अंडाकार"],["Star","तारा"],
-   ["Heart","दिल"],["Diamond","हीरा"],["Pentagon","पंचभुज"],
+   ["Circle","वृत्त"],
+   ["Square","वर्ग"],
+   ["Triangle","त्रिभुज"],
+   ["Rectangle","आयत"],
+   ["Oval","अंडाकार"],
+   ["Star","तारा"],
+   ["Heart","दिल"],
+   ["Diamond","हीरा"],
+   ["Pentagon","पंचभुज"],
    ["Hexagon","षट्भुज"]
   ].map(([label,hi])=>({
    label,
@@ -138,16 +208,30 @@ const DATA={
   name:"Countries",
   icon:"🌍",
   items:[
-   ["India","भारत"],["United States","अमेरिका"],
-   ["United Kingdom","यूनाइटेड किंगडम"],["Japan","जापान"],
-   ["France","फ्रांस"],["Germany","जर्मनी"],["Brazil","ब्राज़ील"],
-   ["China","चीन"],["Australia","ऑस्ट्रेलिया"],["Canada","कनाडा"],
-   ["Italy","इटली"],["Spain","स्पेन"],["Russia","रूस"],
-   ["South Africa","दक्षिण अफ्रीका"],["UAE","संयुक्त अरब अमीरात"],
-   ["Nepal","नेपाल"],["Bhutan","भूटान"],["Bangladesh","बांग्लादेश"],
-   ["Sri Lanka","श्रीलंका"],["Singapore","सिंगापुर"],
-   ["Thailand","थाईलैंड"],["Malaysia","मलेशिया"],
-   ["Indonesia","इंडोनेशिया"],["South Korea","दक्षिण कोरिया"]
+   ["India","भारत"],
+   ["United States","अमेरिका"],
+   ["United Kingdom","यूनाइटेड किंगडम"],
+   ["Japan","जापान"],
+   ["France","फ्रांस"],
+   ["Germany","जर्मनी"],
+   ["Brazil","ब्राज़ील"],
+   ["China","चीन"],
+   ["Australia","ऑस्ट्रेलिया"],
+   ["Canada","कनाडा"],
+   ["Italy","इटली"],
+   ["Spain","स्पेन"],
+   ["Russia","रूस"],
+   ["South Africa","दक्षिण अफ्रीका"],
+   ["UAE","संयुक्त अरब अमीरात"],
+   ["Nepal","नेपाल"],
+   ["Bhutan","भूटान"],
+   ["Bangladesh","बांग्लादेश"],
+   ["Sri Lanka","श्रीलंका"],
+   ["Singapore","सिंगापुर"],
+   ["Thailand","थाईलैंड"],
+   ["Malaysia","मलेशिया"],
+   ["Indonesia","इंडोनेशिया"],
+   ["South Korea","दक्षिण कोरिया"]
   ].map(([label,hi])=>({
    label,
    hi,
@@ -204,6 +288,10 @@ const DATA={
 };
 
 
+/* =========================
+   HELPERS
+========================= */
+
 function slug(s){
  return s.toLowerCase()
   .replace(/[^a-z0-9]+/g,"-")
@@ -212,6 +300,7 @@ function slug(s){
 
 
 function numberWord(n){
+
  const a=[
   "zero","one","two","three","four","five","six","seven",
   "eight","nine","ten","eleven","twelve","thirteen","fourteen",
@@ -221,6 +310,7 @@ function numberWord(n){
  if(n<20)return a[n];
 
  if(n<100){
+
   const t=[
    "","","twenty","thirty","forty","fifty",
    "sixty","seventy","eighty","ninety"
@@ -235,6 +325,7 @@ function numberWord(n){
 
 
 function numberHindi(n){
+
  const a=[
   "शून्य","एक","दो","तीन","चार","पांच","छह","सात","आठ","नौ",
   "दस","ग्यारह","बारह","तेरह","चौदह","पंद्रह","सोलह","सत्रह",
@@ -279,12 +370,16 @@ let currentQuizAnswer=null;
 ========================= */
 
 function save(){
+
  localStorage.setItem("ll_stars",stars);
  localStorage.setItem("ll_quizzes",quizzes);
  localStorage.setItem("ll_learned",learned);
 
  const starEl=document.getElementById("starCount");
- if(starEl)starEl.textContent=stars;
+
+ if(starEl){
+  starEl.textContent=stars;
+ }
 }
 
 
@@ -314,9 +409,11 @@ function showScreen(id){
 
 
 function goHome(){
+
  showScreen("home");
 
- const firstNav=document.querySelector(".bottom-nav button");
+ const firstNav=
+  document.querySelector(".bottom-nav button");
 
  if(firstNav){
   firstNav.classList.add("active");
@@ -357,7 +454,9 @@ function buildHome(){
 
 
 function showAllCategories(){
+
  buildHome();
+
  toast("All learning worlds are ready to explore.");
 }
 
@@ -414,6 +513,7 @@ function renderLearn(){
  }
 
  if(fallback){
+
   fallback.textContent=
    item.label.length>4
     ?item.label.slice(0,1)
@@ -421,6 +521,7 @@ function renderLearn(){
  }
 
  if(img){
+
   img.style.display="block";
   img.src=item.image;
   img.alt=item.label;
@@ -434,32 +535,33 @@ function renderLearn(){
 
   dots.innerHTML=Array.from(
    {length:total},
-   (_,i)=>`<span class="dot ${i<=currentIndex?"done":""}"></span>`
+   (_,i)=>
+    `<span class="dot ${i<=currentIndex?"done":""}"></span>`
   ).join("");
  }
 
+
  /*
-  Only count a card once per category/index session.
-  This avoids learned count increasing every time
-  the same card is rendered.
+  Count each learning card only once.
  */
- const learnKey=`${currentCatKey}_${currentIndex}`;
+ const learnKey=
+  `${currentCatKey}_${currentIndex}`;
 
  if(!window._learnedCards){
   window._learnedCards=new Set();
  }
 
  if(!window._learnedCards.has(learnKey)){
+
   window._learnedCards.add(learnKey);
+
   learned++;
+
   save();
  }
 
  speakCurrent();
 
- /*
-  Add game button only where a game currently exists.
- */
  updateGameButton();
 }
 
@@ -490,7 +592,8 @@ function prevItem(){
  const cat=DATA[currentCatKey];
 
  currentIndex=
-  (currentIndex-1+cat.items.length)%cat.items.length;
+  (currentIndex-1+cat.items.length)%
+  cat.items.length;
 
  renderLearn();
 }
@@ -508,7 +611,8 @@ function speakOne(text,lang){
 
   window.speechSynthesis.cancel();
 
-  const u=new SpeechSynthesisUtterance(text);
+  const u=
+   new SpeechSynthesisUtterance(text);
 
   u.lang=lang;
   u.rate=.82;
@@ -528,7 +632,8 @@ function speakCurrent(){
   window.speechSynthesis.cancel();
  }catch(e){}
 
- const x=DATA[currentCatKey].items[currentIndex];
+ const x=
+  DATA[currentCatKey].items[currentIndex];
 
  speakOne(
   x.speak||x.label,
@@ -554,7 +659,11 @@ function startRandomQuiz(){
  const keys=Object.keys(DATA);
 
  currentCatKey=
-  keys[Math.floor(Math.random()*keys.length)];
+  keys[
+   Math.floor(
+    Math.random()*keys.length
+   )
+  ];
 
  startQuiz();
 }
@@ -566,14 +675,19 @@ function startQuiz(){
 
  quizPool=
   shuffle(cat.items)
-  .slice(0,Math.min(6,cat.items.length));
+   .slice(
+    0,
+    Math.min(6,cat.items.length)
+   );
 
  quizIndex=0;
  quizScore=0;
 
  showScreen("quiz");
 
- document.getElementById("quizCatLabel").textContent=
+ document.getElementById(
+  "quizCatLabel"
+ ).textContent=
   cat.name.toUpperCase()+" QUIZ";
 
  renderQuizQuestion();
@@ -591,53 +705,66 @@ function renderQuizQuestion(){
  currentQuizAnswer=answer;
 
  const others=
-  cat.items.filter(x=>x.label!==answer.label);
+  cat.items.filter(
+   x=>x.label!==answer.label
+  );
 
  const distractors=
   shuffle(others).slice(0,3);
 
  const options=
-  shuffle([answer,...distractors]);
+  shuffle([
+   answer,
+   ...distractors
+  ]);
 
- document.getElementById("quizQuestion").innerHTML=`
+ document.getElementById(
+  "quizQuestion"
+ ).innerHTML=`
   Which one is <b>${answer.speak||answer.label}</b>?
+
   ${
    answer.hi
-    ?`<span style="
-       display:block;
-       color:var(--gold2);
-       font:500 14px 'Noto Sans Devanagari';
-       margin-top:5px;
-      ">
-       इनमें से ${answer.hi} कौन सा है?
-      </span>`
+    ?`
+     <span style="
+      display:block;
+      color:var(--gold2);
+      font:500 14px 'Noto Sans Devanagari';
+      margin-top:5px;
+     ">
+      इनमें से ${answer.hi} कौन सा है?
+     </span>
+    `
     :""
   }
  `;
 
- document.getElementById("scoreText").textContent=
+ document.getElementById(
+  "scoreText"
+ ).textContent=
   `Question ${quizIndex+1} of ${quizPool.length}`;
 
- document.getElementById("quizLiveScore").textContent=
+ document.getElementById(
+  "quizLiveScore"
+ ).textContent=
   quizScore;
 
- /*
-  Next button is kept hidden because
-  correct answers now move automatically.
- */
- const nextBtn=document.getElementById("nextBtn");
+ const nextBtn=
+  document.getElementById("nextBtn");
 
  if(nextBtn){
   nextBtn.style.display="none";
  }
 
- const grid=document.getElementById("quizGrid");
+ const grid=
+  document.getElementById("quizGrid");
 
  grid.innerHTML="";
 
  options.forEach(opt=>{
 
-  const el=document.createElement("button");
+  const el=
+   document.createElement("button");
 
   el.className="quiz-opt";
 
@@ -655,32 +782,48 @@ function renderQuizQuestion(){
     class="fallback"
     style="display:none"
    >
-    ${opt.label.slice(0,2)}
+    ${escapeHTML(
+     opt.label.slice(0,2)
+    )}
    </span>
 
    <span class="opt-label">
-    ${opt.speak||opt.label}
+    ${escapeHTML(
+     opt.speak||opt.label
+    )}
    </span>
 
    ${
     opt.hi
-     ?`<span class="hi">${opt.hi}</span>`
+     ?`
+      <span class="hi">
+       ${escapeHTML(opt.hi)}
+      </span>
+     `
      :""
    }
   `;
 
   el.onclick=()=>{
-   selectAnswer(el,opt,answer);
+   selectAnswer(
+    el,
+    opt,
+    answer
+   );
   };
 
   grid.appendChild(el);
  });
 
  setTimeout(()=>{
+
   speakOne(
-   `Which one is ${answer.speak||answer.label}?`,
+   `Which one is ${
+    answer.speak||answer.label
+   }?`,
    "en-IN"
   );
+
  },200);
 }
 
@@ -699,19 +842,6 @@ function replayQuestion(){
 }
 
 
-/*
- IMPORTANT:
- Correct answer:
-    show green
-    add star
-    wait 900ms
-    automatically next
-
- Wrong answer:
-    show red
-    reveal correct answer
-    stay on question
-*/
 function selectAnswer(el,opt,answer){
 
  if(quizAnswered)return;
@@ -719,7 +849,9 @@ function selectAnswer(el,opt,answer){
  quizAnswered=true;
 
  const allOpts=
-  document.querySelectorAll(".quiz-opt");
+  document.querySelectorAll(
+   ".quiz-opt"
+  );
 
  allOpts.forEach(x=>{
   x.style.pointerEvents="none";
@@ -741,18 +873,18 @@ function selectAnswer(el,opt,answer){
 
   document.getElementById(
    "quizLiveScore"
-  ).textContent=quizScore;
+  ).textContent=
+   quizScore;
 
   save();
 
-  /*
-   AUTO NEXT
-  */
   setTimeout(()=>{
 
    quizIndex++;
 
-   if(quizIndex>=quizPool.length){
+   if(
+    quizIndex>=quizPool.length
+   ){
 
     finishQuiz();
 
@@ -775,16 +907,17 @@ function selectAnswer(el,opt,answer){
 
    if(
     label &&
-    (
-     label.textContent===
-      (answer.speak||answer.label)
-    )
+    label.textContent.trim()===
+     (answer.speak||answer.label)
    ){
+
     x.classList.add("correct");
    }
   });
 
-  toast("Good try! Look at the correct answer.");
+  toast(
+   "Good try! Look at the correct answer."
+  );
 
   speakOne(
    `Not quite. It's ${
@@ -793,10 +926,6 @@ function selectAnswer(el,opt,answer){
    "en-IN"
   );
 
-  /*
-   Wrong answer does NOT auto-next.
-   Allow child to continue manually.
-  */
   setTimeout(()=>{
 
    allOpts.forEach(x=>{
@@ -814,7 +943,9 @@ function nextQuestion(){
 
  quizIndex++;
 
- if(quizIndex>=quizPool.length){
+ if(
+  quizIndex>=quizPool.length
+ ){
 
   finishQuiz();
 
@@ -834,17 +965,25 @@ function finishQuiz(){
 
  showScreen("done");
 
- document.getElementById("doneTitle").textContent=
+ document.getElementById(
+  "doneTitle"
+ ).textContent=
   quizScore===quizPool.length
    ?"Perfect score!"
    :"Well done!";
 
- document.getElementById("doneText").textContent=
+ document.getElementById(
+  "doneText"
+ ).textContent=
   `You got ${quizScore} out of ${quizPool.length} correct.`;
 
- document.getElementById("resultStars").textContent=
+ document.getElementById(
+  "resultStars"
+ ).textContent=
   "★".repeat(quizScore)+
-  "☆".repeat(quizPool.length-quizScore);
+  "☆".repeat(
+   quizPool.length-quizScore
+  );
 }
 
 
@@ -856,45 +995,179 @@ function showProgress(){
 
  showScreen("progress");
 
- document.getElementById("statStars").textContent=
+ document.getElementById(
+  "statStars"
+ ).textContent=
   stars;
 
- document.getElementById("statQuizzes").textContent=
+ document.getElementById(
+  "statQuizzes"
+ ).textContent=
   quizzes;
 
- document.getElementById("statLearned").textContent=
+ document.getElementById(
+  "statLearned"
+ ).textContent=
   learned;
 
- document.getElementById("achievementProgress").textContent=
+ document.getElementById(
+  "achievementProgress"
+ ).textContent=
   Math.min(
    100,
-   Math.round(stars/50*100)
+   Math.round(
+    stars/50*100
+   )
   )+"%";
 }
 
 
+/* =====================================================
+   UNIVERSAL CATEGORY GAME SYSTEM
+===================================================== */
+
+
+/*
+  Every category gets its own game.
+
+  Alphabet:
+  Find the Letter
+
+  Numbers:
+  Find the Number
+
+  Animals:
+  Find the Animal
+
+  Birds:
+  Find the Bird
+
+  Fruits:
+  Find the Fruit
+
+  Vegetables:
+  Find the Vegetable
+
+  Colors:
+  Find the Color
+
+  Shapes:
+  Find the Shape
+
+  Countries:
+  Find the Country
+
+  India:
+  Find the Landmark
+
+  Famous Indians:
+  Find the Person
+*/
+
+
+const GAME_CONFIG={
+
+ alphabet:{
+  title:"🔤 Letter Hunt",
+  instruction:"Find the letter shown above.",
+  action:"Find the Letter"
+ },
+
+ numbers:{
+  title:"🔢 Number Hunt",
+  instruction:"Find the number shown above.",
+  action:"Find the Number"
+ },
+
+ animals:{
+  title:"🐾 Animal Hunt",
+  instruction:"Find the animal shown above.",
+  action:"Find the Animal"
+ },
+
+ birds:{
+  title:"🐦 Bird Hunt",
+  instruction:"Find the bird shown above.",
+  action:"Find the Bird"
+ },
+
+ fruits:{
+  title:"🍎 Fruit Hunt",
+  instruction:"Find the fruit shown above.",
+  action:"Find the Fruit"
+ },
+
+ vegetables:{
+  title:"🥕 Vegetable Hunt",
+  instruction:"Find the vegetable shown above.",
+  action:"Find the Vegetable"
+ },
+
+ colors:{
+  title:"🎨 Color Hunt",
+  instruction:"Find the color shown above.",
+  action:"Find the Color"
+ },
+
+ shapes:{
+  title:"🔷 Shape Hunt",
+  instruction:"Find the shape shown above.",
+  action:"Find the Shape"
+ },
+
+ countries:{
+  title:"🌍 Country Hunt",
+  instruction:"Find the country shown above.",
+  action:"Find the Country"
+ },
+
+ india:{
+  title:"🇮🇳 India Hunt",
+  instruction:"Find the place shown above.",
+  action:"Find the Landmark"
+ },
+
+ personalities:{
+  title:"⭐ People Hunt",
+  instruction:"Find the person shown above.",
+  action:"Find the Person"
+ }
+};
+
+
 /* =========================
-   GAME SYSTEM
+   GAME STATE
+========================= */
+
+let gameScore=0;
+let gameTarget=null;
+let gameTimer=null;
+let gameLocked=false;
+
+
+/* =========================
+   GAME BUTTON
 ========================= */
 
 function updateGameButton(){
 
- /*
-  Existing HTML doesn't need to be changed.
-  We create the button beside the quiz button.
- */
-
- const quizCta=document.querySelector(".quiz-cta");
+ const quizCta=
+  document.querySelector(".quiz-cta");
 
  if(!quizCta)return;
 
- let gameBtn=document.getElementById("cardGameBtn");
+ let gameBtn=
+  document.getElementById(
+   "cardGameBtn"
+  );
 
  if(!gameBtn){
 
-  gameBtn=document.createElement("button");
+  gameBtn=
+   document.createElement("button");
 
   gameBtn.id="cardGameBtn";
+
   gameBtn.className="game-btn";
 
   quizCta.insertAdjacentElement(
@@ -903,56 +1176,376 @@ function updateGameButton(){
   );
  }
 
- /*
-  Only Fruits currently has a real game.
- */
- if(currentCatKey==="fruits"){
+ const config=
+  GAME_CONFIG[currentCatKey];
 
-  gameBtn.style.display="block";
-
-  gameBtn.innerHTML=
-   "🎮 Play Fruit Game";
-
-  gameBtn.onclick=()=>{
-   openFruitGame();
-  };
-
- }else{
+ if(!config){
 
   gameBtn.style.display="none";
+
+  return;
  }
+
+ gameBtn.style.display="block";
+
+ gameBtn.innerHTML=
+  `🎮 ${config.action}`;
+
+ gameBtn.onclick=()=>{
+  openCategoryGame();
+ };
 }
 
 
 /* =========================
-   CREATE GAME UI
+   GAME UI
 ========================= */
 
-function createGameUI(){
+function injectGameStyles(){
 
- if(document.getElementById("fruitGameOverlay")){
-  return;
+ if(
+  document.getElementById(
+   "universalGameStyles"
+  )
+ )return;
+
+ const style=
+  document.createElement("style");
+
+ style.id="universalGameStyles";
+
+ style.textContent=`
+
+ .universal-game-overlay{
+  position:fixed;
+  inset:0;
+  z-index:99999;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:14px;
+  background:
+   rgba(12,9,20,.78);
+  backdrop-filter:blur(10px);
  }
 
- const overlay=document.createElement("div");
+ .universal-game-overlay.active{
+  display:flex;
+ }
 
- overlay.id="fruitGameOverlay";
- overlay.className="game-overlay";
+ .universal-game-panel{
+  width:min(100%,540px);
+  max-height:92vh;
+  overflow:hidden;
+  border-radius:28px;
+  background:
+   linear-gradient(
+    145deg,
+    #fffdf8,
+    #f7f0e7
+   );
+  box-shadow:
+   0 25px 80px rgba(0,0,0,.35);
+  border:1px solid rgba(255,255,255,.8);
+ }
+
+ .universal-game-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:18px 18px 12px;
+ }
+
+ .universal-game-head h2{
+  margin:0;
+  font-size:21px;
+ }
+
+ .universal-game-head p{
+  margin:4px 0 0;
+  font-size:12px;
+  opacity:.68;
+ }
+
+ .universal-game-close{
+  width:40px;
+  height:40px;
+  border:0;
+  border-radius:50%;
+  font-size:25px;
+  cursor:pointer;
+  background:#eee8df;
+ }
+
+ .universal-game-area{
+  position:relative;
+  height:min(58vh,390px);
+  margin:0 14px;
+  overflow:hidden;
+  border-radius:24px;
+  background:
+   radial-gradient(
+    circle at 50% 20%,
+    rgba(255,255,255,.95),
+    rgba(244,234,220,.9)
+   );
+  border:1px solid rgba(150,120,80,.12);
+ }
+
+ .universal-game-info{
+  position:absolute;
+  z-index:30;
+  left:12px;
+  right:12px;
+  top:12px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:8px;
+  pointer-events:none;
+ }
+
+ .universal-game-score{
+  padding:8px 12px;
+  border-radius:999px;
+  background:#fff;
+  box-shadow:0 6px 20px rgba(0,0,0,.1);
+  font-weight:700;
+  font-size:14px;
+ }
+
+ .universal-game-target{
+  max-width:72%;
+  padding:9px 14px;
+  border-radius:999px;
+  background:#fff;
+  box-shadow:0 6px 20px rgba(0,0,0,.1);
+  font-weight:700;
+  font-size:14px;
+  text-align:center;
+ }
+
+ .game-option{
+  position:absolute;
+  z-index:10;
+  border:0;
+  border-radius:22px;
+  padding:7px;
+  background:#fff;
+  box-shadow:
+   0 10px 28px rgba(0,0,0,.13);
+  cursor:pointer;
+  transition:
+   transform .18s ease,
+   box-shadow .18s ease,
+   opacity .18s ease;
+  animation:gamePop .35s ease both;
+ }
+
+ .game-option:hover{
+  transform:scale(1.04);
+ }
+
+ .game-option:active{
+  transform:scale(.94);
+ }
+
+ .game-option img{
+  width:72px;
+  height:72px;
+  object-fit:contain;
+  display:block;
+  border-radius:16px;
+ }
+
+ .game-option .game-option-text{
+  display:block;
+  max-width:90px;
+  margin:4px auto 2px;
+  font-size:11px;
+  font-weight:700;
+  line-height:1.15;
+ }
+
+ .game-option.correct{
+  box-shadow:
+   0 0 0 4px rgba(70,180,100,.25),
+   0 12px 30px rgba(70,180,100,.22);
+  animation:gameCorrect .45s ease both;
+ }
+
+ .game-option.wrong{
+  animation:gameShake .32s ease both;
+ }
+
+ .game-option-fallback{
+  width:72px;
+  height:72px;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  border-radius:16px;
+  background:#f1eadf;
+  font-size:30px;
+  font-weight:800;
+ }
+
+ .game-message{
+  position:absolute;
+  z-index:50;
+  left:50%;
+  top:52%;
+  transform:translate(-50%,-50%) scale(.9);
+  opacity:0;
+  pointer-events:none;
+  transition:.2s ease;
+ }
+
+ .game-message.show{
+  opacity:1;
+  transform:translate(-50%,-50%) scale(1);
+ }
+
+ .game-message-card{
+  min-width:190px;
+  padding:14px 20px;
+  border-radius:20px;
+  text-align:center;
+  background:#fff;
+  box-shadow:0 15px 40px rgba(0,0,0,.18);
+ }
+
+ .game-message-card strong{
+  display:block;
+  font-size:18px;
+ }
+
+ .game-message-card span{
+  display:block;
+  margin-top:3px;
+  font-size:12px;
+  opacity:.7;
+ }
+
+ .universal-game-controls{
+  display:flex;
+  gap:10px;
+  padding:12px 14px 15px;
+ }
+
+ .universal-game-control{
+  flex:1;
+  border:0;
+  border-radius:15px;
+  padding:12px;
+  font-weight:700;
+  cursor:pointer;
+  background:#ebe4da;
+ }
+
+ .universal-game-control.main{
+  background:#17131d;
+  color:#fff;
+ }
+
+ @keyframes gamePop{
+  from{
+   opacity:0;
+   transform:scale(.65);
+  }
+  to{
+   opacity:1;
+   transform:scale(1);
+  }
+ }
+
+ @keyframes gameCorrect{
+  50%{
+   transform:scale(1.15);
+  }
+ }
+
+ @keyframes gameShake{
+  25%{
+   transform:translateX(-8px);
+  }
+  50%{
+   transform:translateX(8px);
+  }
+  75%{
+   transform:translateX(-5px);
+  }
+ }
+
+ @media(max-width:380px){
+
+  .universal-game-area{
+   height:55vh;
+  }
+
+  .game-option img,
+  .game-option-fallback{
+   width:60px;
+   height:60px;
+  }
+
+  .game-option{
+   border-radius:18px;
+  }
+
+  .game-option .game-option-text{
+   max-width:75px;
+   font-size:10px;
+  }
+
+ }
+
+ `;
+
+ document.head.appendChild(style);
+}
+
+
+function createUniversalGameUI(){
+
+ injectGameStyles();
+
+ if(
+  document.getElementById(
+   "universalGameOverlay"
+  )
+ )return;
+
+ const overlay=
+  document.createElement("div");
+
+ overlay.id=
+  "universalGameOverlay";
+
+ overlay.className=
+  "universal-game-overlay";
 
  overlay.innerHTML=`
 
-  <div class="game-panel">
+  <div class="universal-game-panel">
 
-   <div class="game-head">
+   <div class="universal-game-head">
 
     <div>
-     <h2>🍎 Fruit Fun</h2>
-     <p>Catch the fruit shown above!</p>
+     <h2 id="universalGameTitle">
+      🎮 Game
+     </h2>
+
+     <p id="universalGameInstruction">
+      Find the correct answer.
+     </p>
     </div>
 
     <button
-     class="game-close"
-     id="closeFruitGame"
+     class="universal-game-close"
+     id="universalGameClose"
+     type="button"
     >
      ×
     </button>
@@ -960,61 +1553,69 @@ function createGameUI(){
    </div>
 
    <div
-    class="fruit-game-area"
-    id="fruitGameArea"
+    class="universal-game-area"
+    id="universalGameArea"
    >
 
-    <div class="fruit-game-info">
+    <div class="universal-game-info">
 
      <div
-      class="fruit-score"
-      id="fruitScore"
+      class="universal-game-score"
+      id="universalGameScore"
      >
       ⭐ 0
      </div>
 
      <div
-      class="fruit-target"
-      id="fruitTarget"
+      class="universal-game-target"
+      id="universalGameTarget"
      >
-      🍎 Apple
+      Find the answer
      </div>
 
     </div>
 
     <div
      class="game-message"
-     id="fruitGameMessage"
+     id="universalGameMessage"
     >
+
      <div class="game-message-card">
 
-      <strong id="fruitMessageTitle">
+      <strong
+       id="universalGameMessageTitle"
+      >
        Great!
       </strong>
 
-      <span id="fruitMessageText">
+      <span
+       id="universalGameMessageText"
+      >
        Nice work!
       </span>
 
      </div>
+
     </div>
 
    </div>
 
-   <div class="game-controls">
+   <div class="universal-game-controls">
 
     <button
-     class="game-control-btn"
-     id="restartFruitGame"
+     class="universal-game-control"
+     id="universalGameRestart"
+     type="button"
     >
      🔄 Restart
     </button>
 
     <button
-     class="game-control-btn main"
-     id="nextFruitRound"
+     class="universal-game-control main"
+     id="universalGameNext"
+     type="button"
     >
-     Next Fruit →
+     Next →
     </button>
 
    </div>
@@ -1025,304 +1626,553 @@ function createGameUI(){
  document.body.appendChild(overlay);
 
  document.getElementById(
-  "closeFruitGame"
- ).onclick=closeFruitGame;
+  "universalGameClose"
+ ).onclick=
+  closeCategoryGame;
 
  document.getElementById(
-  "restartFruitGame"
- ).onclick=startFruitRound;
+  "universalGameRestart"
+ ).onclick=
+  startGameRound;
 
  document.getElementById(
-  "nextFruitRound"
- ).onclick=startFruitRound;
+  "universalGameNext"
+ ).onclick=
+  startGameRound;
 }
 
 
 /* =========================
-   FRUIT GAME
+   OPEN GAME
 ========================= */
 
-let fruitGameScore=0;
-let fruitGameTarget=null;
-let fruitGameTimer=null;
-let fruitRoundLocked=false;
+function openCategoryGame(){
 
-
-/*
-  Emoji are used ONLY inside the game as
-  quick game visuals.
-
-  Your actual learning card still uses
-  your uploaded images.
-*/
-const FRUIT_GAME_ICONS={
- Apple:"🍎",
- Banana:"🍌",
- Mango:"🥭",
- Orange:"🍊",
- Grapes:"🍇",
- Pomegranate:"🔴",
- Guava:"🍐",
- Papaya:"🟠",
- Watermelon:"🍉",
- Muskmelon:"🍈",
- Pineapple:"🍍",
- Coconut:"🥥",
- Litchi:"🔴",
- Jackfruit:"🟢",
- "Custard Apple":"🟢",
- Pear:"🍐",
- Strawberry:"🍓",
- Lemon:"🍋",
- Kiwi:"🥝",
- Peach:"🍑",
- Plum:"🟣",
- Chikoo:"🟤"
-};
-
-
-function openFruitGame(){
-
- createGameUI();
+ createUniversalGameUI();
 
  const overlay=
   document.getElementById(
-   "fruitGameOverlay"
+   "universalGameOverlay"
   );
+
+ if(!overlay)return;
 
  overlay.classList.add("active");
 
- fruitGameScore=0;
+ gameScore=0;
 
- startFruitRound();
+ updateGameHeader();
+
+ startGameRound();
 }
 
 
-function closeFruitGame(){
+/* =========================
+   CLOSE GAME
+========================= */
+
+function closeCategoryGame(){
 
  const overlay=
   document.getElementById(
-   "fruitGameOverlay"
+   "universalGameOverlay"
   );
 
  if(overlay){
   overlay.classList.remove("active");
  }
 
- clearTimeout(fruitGameTimer);
+ clearTimeout(gameTimer);
+
+ if(
+  "speechSynthesis" in window
+ ){
+
+  try{
+   window.speechSynthesis.cancel();
+  }catch(e){}
+ }
 }
 
 
-/*
-  Start a round using the CURRENT fruit card.
-  Example:
-  current card = Apple
-  game target = Apple
-*/
-function startFruitRound(){
+/* =========================
+   GAME HEADER
+========================= */
 
- clearTimeout(fruitGameTimer);
+function updateGameHeader(){
 
- const cat=DATA.fruits;
+ const config=
+  GAME_CONFIG[currentCatKey];
 
- const currentItem=
-  cat.items[currentIndex];
+ if(!config)return;
 
- /*
-  If current category isn't fruits,
-  use a random fruit.
- */
- if(currentCatKey==="fruits"){
-  fruitGameTarget=currentItem;
- }else{
-  fruitGameTarget=
-   cat.items[
-    Math.floor(
-     Math.random()*cat.items.length
-    )
-   ];
+ const title=
+  document.getElementById(
+   "universalGameTitle"
+  );
+
+ const instruction=
+  document.getElementById(
+   "universalGameInstruction"
+  );
+
+ if(title){
+  title.textContent=config.title;
  }
 
- fruitRoundLocked=false;
+ if(instruction){
+  instruction.textContent=
+   config.instruction;
+ }
+}
 
- const icon=
-  FRUIT_GAME_ICONS[
-   fruitGameTarget.label
-  ]||"🍎";
 
- document.getElementById(
-  "fruitTarget"
- ).textContent=
-  `${icon} ${fruitGameTarget.label}`;
+/* =========================
+   START RANDOM GAME ROUND
+========================= */
 
- document.getElementById(
-  "fruitScore"
- ).textContent=
-  `⭐ ${fruitGameScore}`;
+function startGameRound(){
 
- document.getElementById(
-  "fruitGameMessage"
- ).classList.remove("show");
+ clearTimeout(gameTimer);
+
+ const cat=
+  DATA[currentCatKey];
+
+ if(!cat || !cat.items.length)return;
+
+ gameLocked=false;
+
+ /*
+  Random target every round.
+  It does NOT depend on the current
+  learning card.
+ */
+ gameTarget=
+  cat.items[
+   Math.floor(
+    Math.random()*cat.items.length
+   )
+  ];
+
+ updateGameHeader();
+
+ const targetEl=
+  document.getElementById(
+   "universalGameTarget"
+  );
+
+ const scoreEl=
+  document.getElementById(
+   "universalGameScore"
+  );
+
+ if(targetEl){
+
+  targetEl.textContent=
+   getGameTargetText(
+    gameTarget
+   );
+ }
+
+ if(scoreEl){
+
+  scoreEl.textContent=
+   `⭐ ${gameScore}`;
+ }
+
+ const message=
+  document.getElementById(
+   "universalGameMessage"
+  );
+
+ if(message){
+  message.classList.remove("show");
+ }
 
  const area=
   document.getElementById(
-   "fruitGameArea"
+   "universalGameArea"
   );
 
- /*
-  Remove old fruits but preserve
-  score/target/message elements.
- */
+ if(!area)return;
+
  area.querySelectorAll(
-  ".fruit-item"
+  ".game-option"
  ).forEach(x=>x.remove());
 
+
  /*
-  Create target + distractor fruits.
+  We need three different distractors.
  */
- const targetIcon=
-  FRUIT_GAME_ICONS[
-   fruitGameTarget.label
-  ]||"🍎";
+ const others=
+  cat.items.filter(
+   x=>x.label!==gameTarget.label
+  );
 
- const otherItems=
-  shuffle(
-   cat.items.filter(
-    x=>x.label!==fruitGameTarget.label
-   )
-  ).slice(0,4);
+ const distractors=
+  shuffle(others).slice(0,3);
 
- const fruits=[
-  {
-   label:fruitGameTarget.label,
-   icon:targetIcon,
-   correct:true
-  },
-  ...otherItems.map(x=>({
-   label:x.label,
-   icon:FRUIT_GAME_ICONS[x.label]||"🍎",
-   correct:false
-  }))
- ];
+ const options=
+  shuffle([
+   gameTarget,
+   ...distractors
+  ]);
 
- shuffle(fruits).forEach((fruit,i)=>{
+
+ /*
+  Generate four positions.
+  This keeps the game random while
+  avoiding excessive overlap.
+ */
+ const positions=
+  generateGamePositions(
+   options.length
+  );
+
+ options.forEach((item,index)=>{
 
   const btn=
    document.createElement("button");
 
-  btn.className="fruit-item";
-
   btn.type="button";
 
-  btn.textContent=fruit.icon;
+  btn.className=
+   "game-option";
 
-  /*
-   Different random starting positions.
-  */
-  const left=
-   7+
-   Math.random()*78;
+  const position=
+   positions[index];
 
-  const top=
-   18+
-   Math.random()*68;
+  btn.style.left=
+   position.left+"%";
 
-  btn.style.left=left+"%";
-  btn.style.top=top+"%";
+  btn.style.top=
+   position.top+"%";
 
-  /*
-   Slight animation delay.
-  */
   btn.style.animationDelay=
-   (i*.08)+"s";
+   (index*.07)+"s";
+
+  const img=
+   document.createElement("img");
+
+  img.src=item.image;
+
+  img.alt=item.label;
+
+  const fallback=
+   document.createElement("div");
+
+  fallback.className=
+   "game-option-fallback";
+
+  fallback.textContent=
+   getFallbackText(item);
+
+  img.onerror=()=>{
+   img.style.display="none";
+   fallback.style.display="flex";
+  };
+
+  const text=
+   document.createElement("span");
+
+  text.className=
+   "game-option-text";
+
+  text.textContent=
+   item.speak||item.label;
+
+  btn.appendChild(img);
+
+  btn.appendChild(fallback);
+
+  btn.appendChild(text);
 
   btn.onclick=()=>{
-
-   if(fruitRoundLocked)return;
-
-   if(fruit.correct){
-
-    fruitRoundLocked=true;
-
-    btn.classList.add("hit");
-
-    fruitGameScore++;
-
-    document.getElementById(
-     "fruitScore"
-    ).textContent=
-     `⭐ ${fruitGameScore}`;
-
-    showFruitMessage(
-     "Great! ⭐",
-     `${fruit.label} found!`
-    );
-
-    speakOne(
-     `Great! You found the ${fruit.label}.`,
-     "en-IN"
-    );
-
-    fruitGameTimer=setTimeout(
-     startFruitRound,
-     1100
-    );
-
-   }else{
-
-    /*
-     Wrong fruit:
-     small shake + gentle feedback.
-    */
-    btn.animate(
-     [
-      {transform:"translateX(0)"},
-      {transform:"translateX(-8px)"},
-      {transform:"translateX(8px)"},
-      {transform:"translateX(0)"}
-     ],
-     {
-      duration:300
-     }
-    );
-
-    showFruitMessage(
-     "Try again!",
-     "Find the fruit shown above."
-    );
-
-    setTimeout(()=>{
-
-     document.getElementById(
-      "fruitGameMessage"
-     ).classList.remove("show");
-
-    },650);
-
-   }
+   handleGameAnswer(
+    btn,
+    item
+   );
   };
 
   area.appendChild(btn);
  });
+
+
+ /*
+  Speak instruction.
+ */
+ setTimeout(()=>{
+
+  speakOne(
+   getGameSpeech(gameTarget),
+   "en-IN"
+  );
+
+ },250);
 }
 
 
-function showFruitMessage(title,text){
+/* =========================
+   GAME TARGET TEXT
+========================= */
+
+function getGameTargetText(item){
+
+ const key=currentCatKey;
+
+ if(key==="alphabet"){
+
+  return `Find: ${item.label}`;
+ }
+
+ if(key==="numbers"){
+
+  return `Find: ${item.label}`;
+ }
+
+ return `Find: ${item.speak||item.label}`;
+}
+
+
+/* =========================
+   GAME SPEECH
+========================= */
+
+function getGameSpeech(item){
+
+ const key=currentCatKey;
+
+ if(key==="alphabet"){
+
+  return `Find the letter ${item.label}.`;
+ }
+
+ if(key==="numbers"){
+
+  return `Find the number ${item.label}.`;
+ }
+
+ if(key==="india"){
+
+  return `Find the ${item.speak||item.label}.`;
+ }
+
+ if(key==="personalities"){
+
+  return `Find ${item.speak||item.label}.`;
+ }
+
+ return `Find the ${item.speak||item.label}.`;
+}
+
+
+/* =========================
+   GAME FALLBACK
+========================= */
+
+function getFallbackText(item){
+
+ if(currentCatKey==="alphabet"){
+  return item.label;
+ }
+
+ if(currentCatKey==="numbers"){
+  return item.label;
+ }
+
+ return item.label
+  .replace(/[^a-zA-Z0-9]/g,"")
+  .slice(0,1)
+  .toUpperCase() || "?";
+}
+
+
+/* =========================
+   RANDOM POSITIONS
+========================= */
+
+function generateGamePositions(count){
+
+ const result=[];
+
+ /*
+  Four safe zones.
+  Position is still randomized inside
+  each zone, so options don't stack
+  on top of each other.
+ */
+ const zones=[
+  {x:5,y:21,w:38,h:29},
+  {x:57,y:21,w:38,h:29},
+  {x:5,y:57,w:38,h:29},
+  {x:57,y:57,w:38,h:29}
+ ];
+
+ const shuffledZones=
+  shuffle(zones);
+
+ for(let i=0;i<count;i++){
+
+  const z=
+   shuffledZones[i%shuffledZones.length];
+
+  result.push({
+   left:
+    z.x+
+    Math.random()*Math.max(1,z.w-17),
+
+   top:
+    z.y+
+    Math.random()*Math.max(1,z.h-18)
+  });
+ }
+
+ return result;
+}
+
+
+/* =========================
+   GAME ANSWER
+========================= */
+
+function handleGameAnswer(btn,item){
+
+ if(gameLocked)return;
+
+ if(item.label===gameTarget.label){
+
+  gameLocked=true;
+
+  btn.classList.add("correct");
+
+  gameScore++;
+
+  const scoreEl=
+   document.getElementById(
+    "universalGameScore"
+   );
+
+  if(scoreEl){
+
+   scoreEl.textContent=
+    `⭐ ${gameScore}`;
+  }
+
+  showGameMessage(
+   "Great! ⭐",
+   `${item.speak||item.label} found!`
+  );
+
+  speakOne(
+   getCorrectGameSpeech(item),
+   "en-IN"
+  );
+
+  gameTimer=
+   setTimeout(
+    startGameRound,
+    950
+   );
+
+ }else{
+
+  btn.classList.add("wrong");
+
+  showGameMessage(
+   "Try again!",
+   "Find the correct one."
+  );
+
+  speakOne(
+   "Try again!",
+   "en-IN"
+  );
+
+  setTimeout(()=>{
+
+   btn.classList.remove("wrong");
+
+   const message=
+    document.getElementById(
+     "universalGameMessage"
+    );
+
+   if(message){
+    message.classList.remove("show");
+   }
+
+  },650);
+ }
+}
+
+
+/* =========================
+   CORRECT SPEECH
+========================= */
+
+function getCorrectGameSpeech(item){
+
+ if(currentCatKey==="alphabet"){
+
+  return `Correct! You found the letter ${item.label}.`;
+ }
+
+ if(currentCatKey==="numbers"){
+
+  return `Correct! You found number ${item.label}.`;
+ }
+
+ return `Correct! You found ${item.speak||item.label}.`;
+}
+
+
+/* =========================
+   GAME MESSAGE
+========================= */
+
+function showGameMessage(title,text){
 
  const message=
   document.getElementById(
-   "fruitGameMessage"
+   "universalGameMessage"
   );
 
- document.getElementById(
-  "fruitMessageTitle"
- ).textContent=title;
+ const titleEl=
+  document.getElementById(
+   "universalGameMessageTitle"
+  );
 
- document.getElementById(
-  "fruitMessageText"
- ).textContent=text;
+ const textEl=
+  document.getElementById(
+   "universalGameMessageText"
+  );
 
- message.classList.add("show");
+ if(titleEl){
+  titleEl.textContent=title;
+ }
+
+ if(textEl){
+  textEl.textContent=text;
+ }
+
+ if(message){
+  message.classList.add("show");
+ }
+}
+
+
+/* =========================
+   ESCAPE HTML
+========================= */
+
+function escapeHTML(value){
+
+ return String(value)
+  .replace(/&/g,"&amp;")
+  .replace(/</g,"&lt;")
+  .replace(/>/g,"&gt;")
+  .replace(/"/g,"&quot;")
+  .replace(/'/g,"&#039;");
 }
 
 
@@ -1344,7 +2194,8 @@ function shuffle(a){
 
 function toast(msg){
 
- const t=document.getElementById("toast");
+ const t=
+  document.getElementById("toast");
 
  if(!t)return;
 
@@ -1352,11 +2203,14 @@ function toast(msg){
 
  t.classList.add("show");
 
- clearTimeout(window._toast);
+ clearTimeout(
+  window._toast
+ );
 
- window._toast=setTimeout(()=>{
-  t.classList.remove("show");
- },1800);
+ window._toast=
+  setTimeout(()=>{
+   t.classList.remove("show");
+  },1800);
 }
 
 
@@ -1372,11 +2226,7 @@ document.addEventListener(
 
   save();
 
-  /*
-   Game UI is created once,
-   but remains hidden until needed.
-  */
-  createGameUI();
+  createUniversalGameUI();
 
  }
 );
