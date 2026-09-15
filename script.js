@@ -22,7 +22,8 @@ const DATA={
 
  animals:{
   name:"Animals",
-  icon:"images/category/animals.png",
+  icon:"🐾",
+  image:"images/category/animals.png",
   items:[
    ["Lion","शेर"],
    ["Tiger","बाघ"],
@@ -439,16 +440,42 @@ function buildHome(){
 
   el.className="cat-card";
 
+  const categoryImage = cat.image || null;
+  const categoryIcon = cat.icon || "";
+
   el.innerHTML=`
-   <div class="cat-icon">${cat.icon}</div>
+   <div class="cat-icon">
+
+    ${
+     categoryImage
+      ? `
+       <img
+        src="${categoryImage}"
+        alt="${cat.name}"
+        class="category-image"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+       >
+       <span class="category-icon-fallback">
+        ${categoryIcon}
+       </span>
+      `
+      : categoryIcon
+    }
+
+   </div>
+
    <h3>${cat.name}</h3>
+
    <p>${cat.items.length} learning cards</p>
+
    <span class="arrow">→</span>
+
   `;
 
   el.onclick=()=>openCategory(key);
 
   grid.appendChild(el);
+
  });
 }
 
