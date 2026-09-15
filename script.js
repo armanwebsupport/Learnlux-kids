@@ -22,7 +22,7 @@ const DATA={
 
  animals:{
   name:"Animals",
-  icon:"images/category/animals.jpg",
+  icon:"images/category/animals.png",
   items:[
    ["Lion","शेर"],
    ["Tiger","बाघ"],
